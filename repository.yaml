@@ -1,0 +1,4 @@
+#https://developers.home-assistant.io/docs/add-ons/repository/#repository-configuration
+name: CJersey's Home Assistant Add-ons
+url: 'https://github.com/cjersey/home-assistant-custom-components'
+maintainer: cjersey <https://github.com/cjersey>
