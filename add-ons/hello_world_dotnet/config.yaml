@@ -1,0 +1,18 @@
+name: "Hello world dotnet"
+description: "Hello World in C#!"
+version: "1.0.0"
+slug: "hello_world_dotnet"
+url: https://github.com/cjersey/home-assistant-custom-components/tree/main/add-ons/hello_world_dotnet
+init: false
+arch:
+  - amd64
+startup: services
+ports:
+  8050/tcp: 8050
+  
+options:
+  stringOption: "Type A String HEre"
+  intOption: 1
+schema:
+  stringOption: str
+  intOption: int
